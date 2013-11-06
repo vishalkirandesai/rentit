@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_rentit_main_PlantCatalogue" idField="id_" modelAttribute="plantCatalogue" path="/plantcatalogues" versionField="Version" z="MDEZKSCuluwMOT1a8EBMePt/198=">
+        <field:input field="id" id="c_com_rentit_main_PlantCatalogue_id" z="jba7AzbgR86k3J9e6HQo2yM/skg="/>
+        <field:datetime dateTimePattern="${plantCatalogue_startdate_date_format}" field="startDate" id="c_com_rentit_main_PlantCatalogue_startDate" z="Fox74nHbh0q2F58ag1zEt2JvZTA="/>
+        <field:datetime dateTimePattern="${plantCatalogue_enddate_date_format}" field="endDate" id="c_com_rentit_main_PlantCatalogue_endDate" z="4va469RDsuOiyEvD/QTMBgdmyvo="/>
+        <field:input field="price" id="c_com_rentit_main_PlantCatalogue_price" z="NI/tdtU8jhTjFWFPHvrlSSsjaOA="/>
+    </form:update>
+</div>

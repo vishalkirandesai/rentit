@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_rentit_main_PurchaseOrder" object="${purchaseorder}" path="/purchaseorders" z="k5HhXLBQ8Oq40NzaST8utqAztSI=">
+        <field:display field="id" id="s_com_rentit_main_PurchaseOrder_id" object="${purchaseorder}" z="skkhArR92kr2twmmWWwm0rI/Qjo="/>
+        <field:display field="siteId" id="s_com_rentit_main_PurchaseOrder_siteId" object="${purchaseorder}" z="3kRXoySWOTaNIG6/ziznwzME1RI="/>
+        <field:display field="companyName" id="s_com_rentit_main_PurchaseOrder_companyName" object="${purchaseorder}" z="sxnWm5nIfMyOCE3ECgm8ke794rE="/>
+        <field:display date="true" dateTimePattern="${purchaseOrder_startdate_date_format}" field="startDate" id="s_com_rentit_main_PurchaseOrder_startDate" object="${purchaseorder}" z="lOR/C5C75vtAJTmBGkaIEMpB9EQ="/>
+        <field:display date="true" dateTimePattern="${purchaseOrder_enddate_date_format}" field="endDate" id="s_com_rentit_main_PurchaseOrder_endDate" object="${purchaseorder}" z="8EoSCcrLrhnqUV7CZzr2yyvtGWI="/>
+        <field:display field="price" id="s_com_rentit_main_PurchaseOrder_price" object="${purchaseorder}" z="siwv/CwiZ0+tWyz7lAZPMA9tP0E="/>
+        <field:display field="plantId" id="s_com_rentit_main_PurchaseOrder_plantId" object="${purchaseorder}" z="jCI0+5bM6Dkm91os9FtqBbSxONc="/>
+    </page:show>
+</div>

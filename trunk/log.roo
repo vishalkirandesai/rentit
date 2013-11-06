@@ -1,0 +1,26 @@
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-06 12:29:35
+project --topLevelPackage com.rentit --projectName RentIt --java 7 --packaging JAR
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-06 12:29:55
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-06 12:33:21
+persistence setup --database POSTGRES --provider HIBERNATE --userName postgres --hostName localhost --password letmein --databaseName rentit
+entity jpa --class ~.main.PlantCatalogue
+field number --fieldName id --type int
+field date --fieldName startDate --type java.util.Date
+field date --fieldName endDate --type java.util.Date
+field number --fieldName price --type int
+entity jpa --class ~.main.Invoice
+field number --fieldName id --type int
+field number --fieldName amountDue --type int
+field date --fieldName dueDate --type java.util.Date
+entity jpa --class ~.main.PurchaseOrder
+field number --fieldName id --type int
+field number --fieldName siteId --type int
+field string --fieldName companyName
+field date --fieldName startDate --type java.util.Date
+field date --fieldName endDate --type java.util.Date
+field number --fieldName price --type int
+field reference --fieldName plantId --type ~.main.PlantCatalogue --cardinality MANY_TO_ONE
+focus --class ~.main.Invoice
+field reference --fieldName purchaseOrderId --type ~.main.PurchaseOrder --cardinality ONE_TO_ONE 
+web mvc setup
+web mvc all --package ~.web

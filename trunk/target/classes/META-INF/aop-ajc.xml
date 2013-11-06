@@ -1,0 +1,24 @@
+<aspectj>
+<aspects>
+<aspect name="com.rentit.web.PurchaseOrderController_Roo_Controller"/>
+<aspect name="com.rentit.main.PurchaseOrder_Roo_ToString"/>
+<aspect name="com.rentit.main.PlantCatalogue_Roo_JavaBean"/>
+<aspect name="com.rentit.main.Invoice_Roo_Configurable"/>
+<aspect name="com.rentit.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="com.rentit.web.PlantCatalogueController_Roo_Controller"/>
+<aspect name="com.rentit.main.PlantCatalogue_Roo_Configurable"/>
+<aspect name="com.rentit.main.Invoice_Roo_JavaBean"/>
+<aspect name="com.rentit.main.PurchaseOrder_Roo_JavaBean"/>
+<aspect name="com.rentit.main.PlantCatalogue_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.rentit.main.Invoice_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.rentit.main.Invoice_Roo_ToString"/>
+<aspect name="com.rentit.main.PurchaseOrder_Roo_Jpa_Entity"/>
+<aspect name="com.rentit.main.PlantCatalogue_Roo_ToString"/>
+<aspect name="com.rentit.main.PurchaseOrder_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.rentit.main.PurchaseOrder_Roo_Configurable"/>
+<aspect name="com.rentit.main.PlantCatalogue_Roo_Jpa_Entity"/>
+<aspect name="com.rentit.main.Invoice_Roo_Jpa_Entity"/>
+<aspect name="com.rentit.web.InvoiceController_Roo_Controller"/>
+</aspects>
+</aspectj>
+
